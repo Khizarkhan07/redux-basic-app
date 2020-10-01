@@ -18,7 +18,7 @@ export const PostsList = () => {
         if (postStatus === 'idle') {
             dispatch(fetchPosts())
         }
-    }, [postStatus, dispatch])
+    })
 
     let content
 
